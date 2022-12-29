@@ -1,0 +1,134 @@
+body{
+    text-align: center;
+    margin: 0;
+    background-color: black;
+    color: black;
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    margin: 0;
+}
+
+.sem{
+    font-weight: normal;
+    text-decoration: none;
+    position: absolute;
+    right: 250px;
+    top: 20px;
+    color: #eeeeee;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.semnum{
+    color: #eeeeee;
+    text-decoration: none;
+    text-space: 10px;
+}
+
+.about{
+    text-decoration: none;
+    position: absolute;
+    color: #eeeeee;
+    margin-bottom: 0;
+    left: 250px;
+    top: 20px;
+}
+.home{
+    text-decoration: none;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+    color: #eeeeee;
+    margin-bottom: 0;
+}
+.hi {
+    background-color: yellow;
+    width: 100%;
+    height: 60px;
+    padding-top: 1px;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+a {
+    color: #A0A0A0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+    object-fit: fill;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: crimson;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: black;
+    padding-bottom: 25px;
+    padding-top: 2px;
+}
+
+.p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0;
+}
+
+ table, th, td {
+  border:1px solid black;
+}
+
+.bigimg {
+    margin: 0;
+
+    width: 100%;
+}
+
+.bottomline{
+    background-color: black;
+    height: 30px;
+    margin: 0;
+}
+
+.me{
+    display: inline;
+    margin-top: 5px;
+    text-align: right;
+    color: #eeeeee;
+    font-family: 'Poppins', 'light', sans-serif;
+    font-weight: normal;
+    position: absolute;
+    right: 10px;
+}
+
+.div{
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+.logo{
+    margin: 2px 8px;
+    width: 2%;
+}
