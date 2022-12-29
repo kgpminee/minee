@@ -115,7 +115,6 @@ a {
 .me{
     display: inline;
     margin-top: 5px;
-    text-align: right;
     color: #eeeeee;
     font-family: 'Poppins', 'light', sans-serif;
     font-weight: normal;
@@ -129,6 +128,49 @@ a {
 }
 
 .logo{
-    margin: 2px 8px;
+    font-family: Papyrus, serif;
+    margin: 12px 15px;
     width: 2%;
+    position: absolute;
+    color: seagreen;
 }
+
+
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown{
+  position: absolute;
+    right: 200px;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
